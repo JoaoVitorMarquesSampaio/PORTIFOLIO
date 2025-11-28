@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - João Vitor</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <script src="js.js" defer></script>
+<body>
+
+
+  <!-- Cabeçalho -->
+  <header>
+    <div id = "Nome">
+    <h1>João Vitor Marques Sampaio</h1>
+    </div>
+    <div id="Botaos">
+    <nav id="Botaosnav">
+      <a id="sobrebotao" href="#sobre">Sobre Mim</a>
+      <a id="habilidadesbotao"  href="#habilidades">Habilidades</a>
+      <a id="projetosbotao" href="#projetos">Projetos</a>
+      <a id="contatobotao" href="#contato">Contato</a>
+      <button id="toggleTheme">🌙/☀️</button>
+    </nav>
+    </div>
+  </header>
+
+
+  <!-- Sobre Mim -->
+  <div id="sobre">
+    <div class="container">
+      <div class="texto"> 
+          <h2>Sobre Mim</h2>
+        <p>Olá, sou o João Vitor, estudo no Colégio Cotemig e tenho interesse na área de tecnologia. <br> Busco sempre evoluir meu conhecimento e minhas habilidades.</p>
+        <p>Neste site, compartilho meus projetos e aprendizados. Fique à vontade para entrar em contato!</p>
+      </div>
+     <div class="foto"> 
+      <img src="foto.jpg" alt="Foto João Vitor">
+     </div>
+    </div>
+  </div>
+
+  <div id="espacamento1"></div>
+
+  <!-- Habilidades -->
+  <div id="habilidades">
+    <div id="abilidadestitulo">Minhas Habilidades</div> <br>
+    <ul>
+      <li>HTML / CSS</li>
+      <li>JavaScript</li>
+      <li>C#</li>
+      <li>Microsoft Office 365</li>
+      <li>Google Workspace</li>
+    </ul>
+  </div>
+
+  <div id="espacamento2"></div>
+
+  <!-- Projetos -->
+  <div id="projetos">
+    <div id="projetostitulo">Projetos</div> <br> <br>
+    
+    <div class="grid">
+      <a href="https://github.com/JoaoVitorMarquesSampaio/LONDON" target="_blank">Projeto London</a>
+      <a href="https://github.com/JoaoVitorMarquesSampaio/BITMAP-fotgrafia" target="_blank">Projeto Fotografia</a>  
+    </div>
+
+    <br>
+
+    <div class="grid">
+      <a href="https://github.com/JoaoVitorMarquesSampaio/Site-de-caixas-misteriosas" target="_blank">Projeto Caixas Misteriosas</a>
+      <a href="https://github.com/JoaoVitorMarquesSampaio/Banco-Informatica" target="_blank">Projeto Banco-Informatica</a> 
+    </div>
+
+  </div>  
+
+  <div id="espacamento3"></div>
+
+  <!-- Contato -->
+  <div id="contato">
+    <div id="contatotitulo">Contato</div> <br> <br>
+    <form id="contatoForm">
+      <label>Nome:</label>
+      <input type="text" id="nome" required><br>
+
+      <label>Email:</label>
+      <input type="email" id="email" required><br>
+
+      <label>Telefone:</label>
+      <input type="text" id="telefone" required placeholder="(99) 99999-9999"><br>
+
+      <label>CPF:</label>
+      <input type="text" id="cpf" required placeholder="000.000.000-00"><br>
+
+      <label>CEP:</label>
+      <input type="text" id="cep" required placeholder="00000-000"><br>
+
+      <label>Data de Nascimento:</label>
+      <input type="text" id="data" required placeholder="dd/mm/aaaa"><br>
+
+      <label>Mensagem:</label>
+      <textarea id="mensagem" required></textarea><br>
+
+      <button type="submit"><div id="enviar">Enviar</div></button>
+    </form>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p id="rodape">João Vitor Marques Sampaio // 2025</p>
+  </footer>
+</body>
+</html>
